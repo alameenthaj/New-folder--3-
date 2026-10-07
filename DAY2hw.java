@@ -1,4 +1,4 @@
-public class Billing {
+public class DAY2hw {
 
     public static void main(String[] args) {
 
