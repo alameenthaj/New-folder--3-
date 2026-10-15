@@ -1,14 +1,14 @@
 public class InventoryChecker {
     public static void main(String[] args) {
-        int[] stock = {20, 15, 30, 0, 25}; // Example stock quantities
+        int[] stock = {20, 15, 30, 0, 25}; 
         int total = 0;
         boolean outOfStock = false;
 
-        // Loop through items
+        
         for (int i = 0; i < stock.length; i++) {
             if (stock[i] == 0) {
                 outOfStock = true;
-                break; // Stop checking further if any item is out of stock
+                break; 
             }
             total += stock[i];
         }
